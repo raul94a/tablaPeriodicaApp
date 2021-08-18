@@ -1,0 +1,44 @@
+p{
+    margin:0;
+}
+.masa-atomica{
+    margin-left:6%;
+}
+.masa-atomica,
+.nombre{
+    font-size: 10px;
+}
+.masa-atomica span{
+    margin-left: 27%;
+}
+.elemento{
+    border: 0.6px solid black;
+    width: 4rem;
+    height: 4rem;
+}
+.tabla-periodica{
+    width:90%;
+    margin:0 auto;
+}
+.filaUno{
+    display:grid;
+    grid-template-columns: repeat(2, 5.55%);
+    grid-column-gap: 63.5rem;
+
+  /* grid-template: "a b b b b b b b b b b b b b b b b a";*/
+    background:pink;
+}
+.filaDos,
+.filaTres{
+    display:grid;
+    grid-template-columns: repeat(8, 5.55%);
+  /* grid-template: "a b b b b b b b b b b b b b b b b a";*/
+    background:pink;
+}
+.filaCuatro{
+    display:grid;
+    grid-template-columns: repeat(18, 5.55%);
+  /* grid-template: "a b b b b b b b b b b b b b b b b a";*/
+    background:pink;
+    
+}
